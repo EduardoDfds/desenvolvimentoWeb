@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Hello Word</title>
+    <style type="text/css">
+        .formatacaoDivInput{
+            border: 1px solid black;
+            padding: 10px 20px;
+        }
+    </style>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <h1>Minha primeira calculadora</h1>
+    <p>Está é uma calculadora para somar dois numeros</p>
+    <input type="button" value="Esconder/Mostrar" onclick="esconderMostrar()">
+    <br><br>
+    <div id="calculadora" style="border: 1px solid #240202; background-color: #4a886e; padding: 10px;">
+        <div class="formatacaoDivInput">
+            <h3>Valor 1</h3>
+            <input type="text" id="valor1">
+        </div>
+        <br/><br/>
+        <div class="formatacaoDivInput">
+        <h3>Valor 2</h3>
+        <input type="text" id="valor2">
+        </div>
+        <br/><br/>
+        <input type="button" value="Somar" onclick="somar()">
+        <input type="button" value="Limpar" onclick="limpar()">
+        <br><br>
+        <p id="resultado"></p>
+    </div>
+
+    <script type="text/javascript" src="script.js">
+    
+    </script>
+</body>
+
+</html>
